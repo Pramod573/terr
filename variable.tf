@@ -4,11 +4,11 @@ variable "aws_region" {
 }
 
 variable "no_of_instances" {
-default = "3"
+default = "1"
 }
 
 variable "ami" {
-default = "ami-0447a12f28fddb066"
+default = "ami-06489866022e12a14"
 }
 
 variable "instance_type" {
@@ -18,7 +18,7 @@ default = "t2.micro"
 
 variable "key" {
 description = "Server Key file name"
-default = "Sec_key"
+default = "ctcweb"
 }
 
 variable "bootstrap_path" {
